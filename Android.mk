@@ -8,7 +8,7 @@ cflags := -O2 -g \
     -DPROGDATE=\"December\ 2011\" \
     -Wno-sign-compare -Wno-missing-field-initializers \
     -Wno-ignored-qualifiers -Wno-unused-parameter \
-	-Wno-#pragma-messages
+    -Wno-#pragma-messages
 
 extensions_src_files := \
     extensions/ebt_802_3.c \
@@ -27,7 +27,6 @@ extensions_src_files := \
     extensions/ebt_redirect.c \
     extensions/ebt_standard.c \
     extensions/ebt_stp.c \
-    extensions/ebt_ulog.c \
     extensions/ebt_vlan.c \
     extensions/ebtable_broute.c \
     extensions/ebtable_filter.c \
